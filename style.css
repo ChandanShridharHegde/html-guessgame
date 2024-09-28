@@ -1,0 +1,46 @@
+h1{
+    color: orangered;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: orangered;
+    margin-right: 105px;
+}
+body{
+background-color: blanchedalmond;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 0;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    
+
+}
+input{
+    padding: 10px;
+    margin: 10px;
+    width: 150px;
+    font-size: medium;
+
+}
+.form-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.form-button:hover{
+    background-color: aquamarine;
+}
+
+#result {
+    font-size: 18px;
+    margin-top: 20px;
+    color: #333;
+}
